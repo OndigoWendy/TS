@@ -25,6 +25,20 @@ To set up a development environment with TypeScript, you will need to have Node.
 
 ## Understanding types and variables in TypeScript
 
+In TypeScript, there are several types you can use to declare variables:
+
+- boolean: for values that are either true or false
+- number: for numeric values
+- string: for string values
+- array: for collections of values
+- tuple: for fixed-length collections of elements, where each element can have a different type
+- enum: for defining a set of named constants
+- any: for variables that can hold any type of value
+- void: for functions that do not return a value
+- null and undefined: for values that are null or undefined
+
+You can also define custom types using interface or type declarations.
+
 # Basic Types in TypeScript
 - String, number, and boolean types
 - Using the any type and type assertions
