@@ -20,6 +20,9 @@ Some benefits of using TypeScript include:
 Overall, learning TypeScript can be a good investment for those who work on large-scale JavaScript projects, or for those who want to improve the quality and maintainability of their code.
 
 ## Setting up a development environment with TypeScript
+To set up a development environment with TypeScript, you will need to have Node.js and npm installed on your computer. You can then initialize a new npm project and install TypeScript as a development dependency. Next, create a tsconfig.json file to specify the compiler options for your project. You can then create TypeScript files in your project and use the tsc command to compile them to JavaScript. To automatically compile your code every time you save a file, use the tsc command with the --watch flag. You can also set up your editor to work with TypeScript.
+
+
 ## Understanding types and variables in TypeScript
 
 # Basic Types in TypeScript
