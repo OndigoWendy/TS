@@ -2,6 +2,7 @@
 
 # Introduction to TypeScript
 ## What is TypeScript and why should you learn it?
+
 TypeScript is a programming language that is a strict syntactical super set of JavaScript. It was developed and is maintained by Microsoft.
 
 TypeScript adds optional static typing to JavaScript, which can help catch errors before you run your code and can improve the readability and maintainability of your code.
