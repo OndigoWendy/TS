@@ -40,9 +40,35 @@ In TypeScript, there are several types you can use to declare variables:
 You can also define custom types using interface or type declarations.
 
 # Basic Types in TypeScript
-- String, number, and boolean types
-- Using the any type and type assertions
-- Understanding type inference
+## String, number, and boolean types
+
+In TypeScript, the string type is used to represent text values. You can use string literals or variables of type string to store string values.
+
+
+let username: string = 'John';
+let message: string = `Hello, ${username}!`;
+
+The number type is used to represent numeric values. It can be an integer or a floating-point value.
+
+let count: number = 10;
+let price: number = 19.99;
+
+
+The boolean type is used to represent values that are either true or false.
+
+let isLoggedIn: boolean = true;
+let isAdmin: boolean = false;
+
+You can use the typeof operator to check the type of a variable at runtime.
+
+let count: number = 10;
+console.log(typeof count); // Output: "number"
+
+let isLoggedIn: boolean = true;
+console.log(typeof isLoggedIn); // Output: "boolean"
+
+## Using the any type and type assertions
+## Understanding type inference
 
 # Working with Classes and Interfaces in TypeScript
 - Defining classes and interfaces
